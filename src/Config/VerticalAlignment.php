@@ -10,7 +10,7 @@ use WHSymfony\WHFormBundle\Config\LabelAwareEnum;
 enum VerticalAlignment: string implements LabelAwareEnum
 {
 	case Top = 'top';
-	case Middle = 'middle';
+	case Middle = 'center'; // Using "center" here (instead of "middle") facilitates easier conversion to CSS
 	case Bottom = 'bottom';
 
 	public function getLabel(): string
