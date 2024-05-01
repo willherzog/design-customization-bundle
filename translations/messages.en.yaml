@@ -1,0 +1,12 @@
+design_customization:
+    alignment:
+        bottom: Bottom
+        center: Center
+        left: Left
+        middle: Middle
+        right: Right
+        top: Top
+    background_size:
+        fill_height: Fill Height
+        fill_width: Fill Width
+        original: Original

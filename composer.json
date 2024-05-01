@@ -1,0 +1,28 @@
+{
+	"name": "willherzog/design-customization-bundle",
+	"description": "Some PHP enumerators related to design customization, for use with the Symfony framework.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Herzog",
+            "email": "willherzog@gmail.com",
+            "role": "Developer"
+        }
+    ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/willherzog/symfony-form-bundle"
+		}
+	],
+    "require": {
+		"php": "^8.1",
+        "willherzog/symfony-form-bundle": "dev-main"
+	},
+    "autoload": {
+        "psr-4": {
+            "WHPHP\\": "src/"
+        }
+    }
+}
