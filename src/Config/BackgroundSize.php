@@ -1,6 +1,6 @@
 <?php
 
-namespace WHPHP\Config;
+namespace WHSymfony\DesignCustomizationBundle\Config;
 
 use WHSymfony\WHFormBundle\Config\LabelAwareEnum;
 
